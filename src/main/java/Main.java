@@ -15,7 +15,7 @@ public class Main {
     nums[3]=sc.nextInt();
     System.out.println("input a random number at this moment: ");
     nums[4]=sc.nextInt();
-    nums[5] = (int) Math.random();
+    nums[5] = (int) Math.random()*1000;
     Dictionary dic = Dictionary.getDictionary();
     String nickname = dic.getNickName(nums);
     System.out.println("nickname: " + nickname);
